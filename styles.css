@@ -28,6 +28,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #eee;
+    list-style:none;
+    padding: 0 20px;
 }
 nav .menu{ 
     display: flex;
@@ -38,6 +40,7 @@ nav .menu{
 }
 nav .menu a{ 
     font-size: 16px;
+    font-weight: 500;
     color: #000000;
     text-decoration: none;
     
@@ -45,14 +48,86 @@ nav .menu a{
 .btn {
     align-items: center; 
     gap: 10; 
-    padding: 12px 16px 12px 16px; 
+    padding: 12px 16px; 
     background-color: #30B864;
     margin-right: 120px;
     border-radius: 4px;
     border: none;
     font-size: 16px;
-    font-weight: semi bold;
+    font-weight: 600;
     color: #FFFFFF;
+    cursor: pointer;
 
     
+}
+#banner {
+    background-image: url(./assets/hero-bg.png)
+}
+ #banner .banner-content { 
+    padding: 120px 70px 120px 134px;
+}
+#banner .banner-content h1 {
+ 
+    font-size: 72px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 84px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+
+}
+#banner .banner-content h2 {
+ 
+    font-size: 72px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 84px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #30b868;
+}
+#banner .banner-content p{
+    font-style: 400;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0%;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.btn2{
+    align-items: center; 
+    gap: 10; 
+    padding: 12px 16px; 
+    background-color: #30B864;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: 447.5px;
+    cursor: pointer;
+
+
+}
+#arrow{
+    align-content: center;
+}
+.btn3 {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 16px;
+    align-content: center;
+    margin-left: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: none;
+    border-color: #FFFFFF;
+    cursor: pointer;
+   
+
 }
